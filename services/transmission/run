@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec /sbin/setuser abc /usr/bin/transmission-daemon -f -g /config
