@@ -1,3 +1,5 @@
+**WARNING** - This image for Transmission is from before [linuxserver.io](https://github.com/linuxserver) had one, but now they [do](https://github.com/linuxserver/docker-transmission/)! If you can, use theirs instead to show your support so they can keep making awesome containers.
+
 # cpoppema/docker-transmission
 
 [Transmission](http://www.transmissionbt.com/about/) is a cross-platform open source BitTorrent client.
@@ -21,8 +23,8 @@ This container is based on phusion-baseimage with ssh removed. For shell access 
 * `-p 9091` - Transmission WebUI Port
 * `-v /config` - Transmission app data
 * `-v /downloads` - location of downloads on disk
-* `-e PGID` for for GroupID - see below for explanation
-* `-e PUID` for for UserID - see below for explanation
+* `-e PGID` for GroupID - see below for explanation
+* `-e PUID` for UserID - see below for explanation
 
 ### User / Group Identifiers
 
